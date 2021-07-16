@@ -7,6 +7,7 @@ export default function EventsPage({ events }) {
   return (
     <Layout>
       <h1>Events</h1>
+      <hr />
       {events.length === 0 && <h3>No events to show</h3>}
 
       {events.map((evt) => (

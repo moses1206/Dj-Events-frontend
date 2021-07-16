@@ -5,3 +5,14 @@
   border: 1px #777 solid;
   border-radius: 5px;
 }
+
+.search input:focus {
+  border: solid 2px #d2691e;
+}
+
+.searchTerm {
+  font-size: 40px;
+  color: blue;
+}
+
+/* fontSize: '40px', color: 'blue' */
